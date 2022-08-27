@@ -62,7 +62,7 @@ nav .right{margin:5px 0px;}
 	flex-wrap: wrap;
 }
 .overlay{
-	background:	url(../img/002.jpg);
+	background:	url(002.jpg);
 	background-size: cover;
 	margin-top: 0px;
 	height: auto;
@@ -156,14 +156,14 @@ nav .right{margin:5px 0px;}
 	height:250px;
 }
 .Reserach{
-	background:url(../img/uiux.jpg); 
+	background:url(uiux.jpg); 
 	margin-right:10px;
 	background-size:cover;
 	box-sizing: border-box;
 	}
 .Development {
 	background:
-	url(../img/Web_Development.jpg);
+	url(Web_Development.jpg);
 	/* margin-left:10px; */
 	background-size:
 	cover;
@@ -172,14 +172,14 @@ nav .right{margin:5px 0px;}
 .Design {
 	/* margin-right:10px; */
 	background:
-	url(../img/web-design.jpg);
+	url(web-design.jpg);
 	box-sizing: border-box;
 	background-size: cover;
 	}
 .App {
 	margin-left:10px;
 	background:
-	url(../img/app-design.jpg);
+	url(app-design.jpg);
 	box-sizing: border-box;
 	background-size: cover;
 	}
