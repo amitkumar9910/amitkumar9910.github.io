@@ -418,7 +418,8 @@ input.Email{width:44%; margin-left:5%;}
 	.contact-us .w-30{order:2; display:none;}
 	input.Email{width: 49%; margin:10px 0px 0px 10px;}
 	input.phone{width: 49%;margin:10px 0px 0px 0px;}
-	
+	.col-sm-4{ width:100%;}
+	.border-all{ border:none; border-bottom:1px solid var(--theme-yellow-color);}
 	
 }
 @media (max-width:480px) and (min-width:320px){
@@ -484,4 +485,6 @@ input.Email{width:44%; margin-left:5%;}
 	.contact-us .w-30{order:2; display:none;}
 	input.Email{width: 100%; margin:10px 0px 0px 0px;}
 	input.phone{width: 100%; margin:10px 0px 0px 0px;}
+	.col-sm-4{ width:100%;}
+	.border-all{ border:none; border-bottom:1px solid var(--theme-yellow-color);}
 }
