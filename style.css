@@ -366,6 +366,8 @@ input.Email{width:44%; margin-left:5%;}
 		width:60%;
 		margin: 150px 0px 100px 0px;
 	}
+	.Reserach, .App, .Design, .Development{ height:400px;}
+	.overlay12{ height:400px;}
 }
 @media (max-width:767px) and (min-width:481px){
 	.m-show{display:none;}
