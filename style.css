@@ -13,7 +13,7 @@ body{
 	font-family:roboto;
 	}
 a{color:#000; text-decoration:none;}
-a:{color:#000; text-decoration:none;}
+a:hover{color:#000; text-decoration:none;}
 p{margin-bottom:1rem;}
 .mt-20{margin-top:20px;} .my-20{margin:20px 0px;} .mx-20{margin:0px 20px;} .mb-20{margin-bottom:20px;}
 .mt-10{margin-top:10px;} .my-10{margin:10px 0px;} .mx-10{margin:0px 10px;} .mb-10{margin-bottom:10px;}
@@ -127,8 +127,7 @@ nav .right{margin:5px 0px;}
 .text-center{ text-align:center;}
 .cus-yellow{color:var(--theme-yellow-color);}
 .about-text  a{
-/* 	color:var(--theme-yellow-color); */
-	color :red;
+ 	color:var(--theme-yellow-color);
 	padding:8px 16px;
 	border:1px solid var(--theme-yellow-color);
 }
