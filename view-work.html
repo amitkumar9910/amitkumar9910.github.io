@@ -13,13 +13,31 @@
 		body{ background:rgb(48, 46, 48);}
 		.start{ margin-top:50px;}
 		.img-box{ 
-			width:90%; 
-			margin:0px auto; 
-			padding:10px; 
-			transition:0.3s;
+			width: 90%;
+			margin: 0px auto;
+			padding: 10px;
+			height: 350px;
+			margin-bottom: 20px;
+			overflow: hidden;
+			position:relative;
 		}
-		.img-box:hover{ transition:0.5s;}
-		.img-box:hover img{transform:scale(1.5); margin-top:250px;}
+		.img-box:hover{ overflow:auto;}
+		.img-box:hover::before{
+			content:"";
+			width:20px;
+			height:50px;
+			background:#302e30;
+			border-radius: 20px;
+			align-items: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.img-box::-webkit-scrollbar{
+			display:none;
+
+		}
 	</style>
   </head>
   <body>
