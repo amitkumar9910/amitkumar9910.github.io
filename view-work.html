@@ -13,7 +13,7 @@
 		body{ background:rgb(48, 46, 48);}
 		.start{ margin-top:50px;}
 		.img-box{ 
-			width: 90%;
+			width: 100%;
 			margin: 0px auto;
 			padding: 10px;
 			height: 350px;
@@ -22,7 +22,7 @@
 			position:relative;
 		}
 		.img-box:hover{ overflow:auto;}
-		.img-box:hover::before{
+		.img-box .scroll_down{
 			content:"";
 			width:20px;
 			height:50px;
@@ -33,10 +33,39 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
+			display:none;
+			
+		}
+		.img-box:hover .scroll_down{ 
+			display:block;
+			overflow:hidden;
+		}
+		.img-box:hover .scroll_down:before{ 
+			content:'';
+			width:10px;
+			height:10px;
+			position: absolute;
+			background: red;
+			border-radius: 50%;
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			animation:scroll 2s ease-in-out infinite;
+			transform: translateX(-50%);
+			left:50%;
+		}
+		@keyframes scroll{
+			0% {
+			opacity: 1;
+			top: 1%;
+			}
+			100% {
+			opacity: 0;
+			top: 102%;
+			}
 		}
 		.img-box::-webkit-scrollbar{
 			display:none;
-
 		}
 	</style>
   </head>
@@ -46,6 +75,7 @@
 			<div class="row">
 				<div class="col-md-4">
 				<div class="img-box">
+					<div class="scroll_down"></div>
 					<img src="BG.png" class="img-fluid">
 				</div>
 			</div><div class="col-md-4">
