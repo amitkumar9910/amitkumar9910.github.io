@@ -632,7 +632,7 @@ input.Email {
 }
 /* view-work page start*/
 .downloadProject{ 
-	position:absolute;
+	position:fixed;
 	bottom:40px;
 	right:10px;
 	color:#fff;
